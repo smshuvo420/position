@@ -1,0 +1,27 @@
+.container{
+    height: 310px;
+    width: 100%;
+    background: rgb(85, 94, 64);
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.a{background: rgb(223, 214, 214);
+position: relative;
+top: 20px;
+text-align: center;
+text}
+.b{background: rgb(139, 101, 101);
+position: relative;
+}
+.c{
+height: 200px;
+width: 200px;
+overflow: scroll;}
+
+.ac{background: rgb(31, 221, 63);
+    height: 100px;
+    width: 100px;}
+.bc{background: rgb(192, 168, 29);
+    height: 100px;
+    width: 100px;}
+    .ac:hover + .bc{background: #000;}
